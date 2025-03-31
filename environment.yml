@@ -1,0 +1,16 @@
+name: osce_climate_assessment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - ipywidgets
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - cftime
+  - scipy
+  - ipykernel
+  - IPython

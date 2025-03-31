@@ -1,0 +1,16 @@
+---
+
+### requirements.txt
+
+```txt
+python>=3.8
+jupyter
+ipywidgets
+numpy
+pandas
+matplotlib
+xarray
+cftime
+scipy
+ipykernel
+IPython

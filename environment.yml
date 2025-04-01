@@ -14,3 +14,5 @@ dependencies:
   - scipy
   - ipykernel
   - IPython
+  - netcdf4
+  - h5netcdf

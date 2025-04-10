@@ -59,10 +59,10 @@ This repository contains a Jupyter Notebook designed for exploring and comparing
 
 **Data Requirements**
 - Observational Data:
-    Ensure that your observational CSV files are placed in the folder specified in the notebook (e.g., /pscratch/sd/k/kpeco/OSCE/Obs/Moldova). Each CSV should include separate columns for Years, Month, and Date (which are converted into a single datetime column).
+    Ensure that your observational CSV files are placed in the folder specified in the notebook (e.g., /Users/kpeco/Documents/GitHub/OSCE/Obs/Moldova). Change the 'obs_data_dir' variable to your own directory to read in the observational data. Each CSV should include separate columns for Years, Month, and Date (which are converted into a single datetime column).
 
 - Locations Data:
     A CSV file named Moldova_locs.csv (with columns Location,Latitude,Longitude) must be available in the same folder as the observational data.
 
 - CORDEX Model Data:
-    The CORDEX data should be organized by GCM (e.g., MOHC-HadGem2, MPI-ESM-LR, NCC-Noresm1) with any subdirectories and filenames as specified in the notebook.
+    The CORDEX data should be organized by GCM (e.g., MOHC-HadGem2, MPI-ESM-LR, NCC-Noresm1) with any subdirectories and filenames as specified in the notebook. Set the 'base_dir' argument in the load_cordex_data() function to your own directory where the CORDEX model data was saved.
